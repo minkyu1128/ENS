@@ -1,0 +1,24 @@
+package cokr.xit.message.sample.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+
+@Service
+public class KafkaSampleProducerService {
+
+	@Autowired
+	private KafkaTemplate<String, String> kafkaTemplate;
+
+	private final String TOPIC_NAME = "testTopic";
+
+	public void sendMessage(String message) {
+		System.out.println("send message : " + message);
+		this.kafkaTemplate.send(TOPIC_NAME, message);
+	}
+	public void sendMessage(String topicName, String message) {
+		System.out.println(String.format("[%s]send message : %s", topicName, message));
+		this.kafkaTemplate.send(topicName, message);
+	}
+
+}

@@ -1,0 +1,677 @@
+FATAL  | wrapper  | 2021/06/26 02:12:32 | OpenSCManager failed - 액세스가 거부되었습니다. (0x5)
+STATUS | wrapper  | 2021/06/26 02:12:40 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/06/26 02:12:40 | Launching a JVM...
+INFO   | jvm 1    | 2021/06/26 02:12:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/06/26 02:12:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/06/26 02:12:41 | 
+INFO   | jvm 1    | 2021/06/26 02:12:41 | 
+INFO   | jvm 1    | 2021/06/26 02:12:41 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           could not be loaded:
+INFO   | jvm 1    | 2021/06/26 02:12:41 |             C:\xit\XIT-eGovFrameDev-3.9.0-64bit\env-setting\database\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           Reported cause:
+INFO   | jvm 1    | 2021/06/26 02:12:41 |             C:\xit\XIT-eGovFrameDev-3.9.0-64bit\env-setting\database\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/06/26 02:12:41 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/06/26 02:12:41 | 
+INFO   | jvm 1    | 2021/06/26 02:12:41 | TCP server running at tcp://192.168.0.20:9092 (only local connections)
+INFO   | jvm 1    | 2021/06/26 02:12:41 | Web Console server running at http://192.168.0.20:8082 (only local connections)
+FATAL  | wrapper  | 2021/06/26 02:12:58 | OpenSCManager failed - 액세스가 거부되었습니다. (0x5)
+STATUS | wrapper  | 2021/06/26 02:13:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/06/26 02:13:29 | Launching a JVM...
+INFO   | jvm 1    | 2021/06/26 02:13:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/06/26 02:13:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/06/26 02:13:29 | 
+INFO   | jvm 1    | 2021/06/26 02:13:29 | 
+INFO   | jvm 1    | 2021/06/26 02:13:29 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           could not be loaded:
+INFO   | jvm 1    | 2021/06/26 02:13:29 |             C:\xit\XIT-eGovFrameDev-3.9.0-64bit\env-setting\database\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           Reported cause:
+INFO   | jvm 1    | 2021/06/26 02:13:29 |             C:\xit\XIT-eGovFrameDev-3.9.0-64bit\env-setting\database\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/06/26 02:13:29 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/06/26 02:13:29 | 
+INFO   | jvm 1    | 2021/06/26 02:13:29 | TCP server running at tcp://192.168.0.20:9092 (only local connections)
+INFO   | jvm 1    | 2021/06/26 02:13:29 | Web Console server running at http://192.168.0.20:8082 (only local connections)
+STATUS | wrapper  | 2021/07/06 19:13:27 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/06 19:13:27 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/06 19:13:27 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/06 19:13:27 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/06 19:13:27 | 
+INFO   | jvm 1    | 2021/07/06 19:13:27 | 
+INFO   | jvm 1    | 2021/07/06 19:13:27 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/06 19:13:27 |             C:\xit\XIT-eGovFrameDev-3.9.0-64bit\env-setting\database\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           Reported cause:
+INFO   | jvm 1    | 2021/07/06 19:13:27 |             C:\xit\XIT-eGovFrameDev-3.9.0-64bit\env-setting\database\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/06 19:13:27 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/06 19:13:27 | 
+INFO   | jvm 1    | 2021/07/06 19:13:28 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/06 19:13:28 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/07/20 15:33:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/20 15:33:42 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/20 15:33:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/20 15:33:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/20 15:33:43 | 
+INFO   | jvm 1    | 2021/07/20 15:33:43 | 
+INFO   | jvm 1    | 2021/07/20 15:33:43 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/20 15:33:43 |             C:\xit\SenderApi\env-setting\database\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           Reported cause:
+INFO   | jvm 1    | 2021/07/20 15:33:43 |             C:\xit\SenderApi\env-setting\database\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/20 15:33:43 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/20 15:33:43 | 
+INFO   | jvm 1    | 2021/07/20 15:33:43 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/20 15:33:43 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/07/21 19:01:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/21 19:01:58 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/21 19:01:59 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/21 19:01:59 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/21 19:01:59 | 
+INFO   | jvm 1    | 2021/07/21 19:01:59 | 
+INFO   | jvm 1    | 2021/07/21 19:01:59 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/21 19:01:59 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           Reported cause:
+INFO   | jvm 1    | 2021/07/21 19:01:59 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/21 19:01:59 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/21 19:01:59 | 
+INFO   | jvm 1    | 2021/07/21 19:01:59 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/21 19:01:59 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/07/22 10:02:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/22 10:02:09 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/22 10:02:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/22 10:02:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/22 10:02:09 | 
+INFO   | jvm 1    | 2021/07/22 10:02:09 | 
+INFO   | jvm 1    | 2021/07/22 10:02:09 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/22 10:02:09 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           Reported cause:
+INFO   | jvm 1    | 2021/07/22 10:02:09 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/22 10:02:09 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/22 10:02:09 | 
+INFO   | jvm 1    | 2021/07/22 10:02:10 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/22 10:02:10 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+INFO   | wrapper  | 2021/05/22 15:58:18 | The system clock fell behind the timer by 975436004ms.
+INFO   | jvm 1    | 2021/05/22 15:58:18 | The system clock fell behind the timer by 975435904ms.
+INFO   | wrapper  | 2021/07/22 15:58:37 | The timer fell behind the system clock by 975437004ms.
+INFO   | jvm 1    | 2021/07/22 15:58:37 | The timer fell behind the system clock by 975437104ms.
+INFO   | wrapper  | 2021/05/22 15:58:50 | The system clock fell behind the timer by 975437004ms.
+INFO   | jvm 1    | 2021/05/22 15:58:50 | The system clock fell behind the timer by 975437004ms.
+INFO   | wrapper  | 2021/07/22 16:02:46 | The timer fell behind the system clock by 975437004ms.
+INFO   | jvm 1    | 2021/07/22 16:02:46 | The timer fell behind the system clock by 975437004ms.
+STATUS | wrapper  | 2021/07/23 09:35:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/23 09:35:24 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/23 09:35:24 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/23 09:35:24 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/23 09:35:24 | 
+INFO   | jvm 1    | 2021/07/23 09:35:24 | 
+INFO   | jvm 1    | 2021/07/23 09:35:24 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/23 09:35:24 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           Reported cause:
+INFO   | jvm 1    | 2021/07/23 09:35:24 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/23 09:35:24 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/23 09:35:24 | 
+INFO   | jvm 1    | 2021/07/23 09:35:24 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/23 09:35:24 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/07/25 19:31:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/25 19:31:29 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/25 19:31:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/25 19:31:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/25 19:31:30 | 
+INFO   | jvm 1    | 2021/07/25 19:31:30 | 
+INFO   | jvm 1    | 2021/07/25 19:31:30 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/25 19:31:30 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           Reported cause:
+INFO   | jvm 1    | 2021/07/25 19:31:30 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/25 19:31:30 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/25 19:31:30 | 
+INFO   | jvm 1    | 2021/07/25 19:31:30 | TCP server running at tcp://localhost:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/25 19:31:30 | Web Console server running at http://localhost:8082 (only local connections)
+STATUS | wrapper  | 2021/07/27 13:15:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/27 13:15:38 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/27 13:15:38 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/27 13:15:38 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/27 13:15:38 | 
+INFO   | jvm 1    | 2021/07/27 13:15:38 | 
+INFO   | jvm 1    | 2021/07/27 13:15:38 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/27 13:15:38 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           Reported cause:
+INFO   | jvm 1    | 2021/07/27 13:15:38 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/27 13:15:38 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/27 13:15:38 | 
+INFO   | jvm 1    | 2021/07/27 13:15:38 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/27 13:15:38 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+FATAL  | wrapper  | 2021/07/27 14:01:25 | OpenSCManager failed - 액세스가 거부되었습니다. (0x5)
+STATUS | wrapper  | 2021/07/27 14:01:38 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/27 14:01:38 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/27 14:01:38 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/27 14:01:38 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/27 14:01:38 | 
+INFO   | jvm 1    | 2021/07/27 14:01:38 | 
+INFO   | jvm 1    | 2021/07/27 14:01:38 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/27 14:01:38 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           Reported cause:
+INFO   | jvm 1    | 2021/07/27 14:01:38 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/27 14:01:38 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/27 14:01:38 | 
+INFO   | jvm 1    | 2021/07/27 14:01:39 | TCP server running at tcp://115.21.123.51:60221 (only local connections)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | The Web Console server could not be started. Possible cause: another server is already running at http://115.21.123.51:8082
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 
+INFO   | jvm 1    | 2021/07/27 14:01:39 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: bind" [90061-200]
+INFO   | jvm 1    | 2021/07/27 14:01:39 | org.h2.jdbc.JdbcSQLNonTransientConnectionException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: bind" [90061-200]
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.message.DbException.get(DbException.java:194)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:180)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:146)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.server.web.WebServer.start(WebServer.java:389)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.tools.Server.start(Server.java:511)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.tools.Server.runTool(Server.java:333)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.tools.Server.main(Server.java:122)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/java.lang.Thread.run(Thread.java:831)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | Caused by: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/sun.nio.ch.Net.bind(Net.java:552)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/sun.nio.ch.Net.bind(Net.java:541)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:172)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:176)
+INFO   | jvm 1    | 2021/07/27 14:01:39 | 	... 11 more
+STATUS | wrapper  | 2021/07/28 11:44:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/28 11:44:55 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/28 11:44:55 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/28 11:44:55 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/28 11:44:55 | 
+INFO   | jvm 1    | 2021/07/28 11:44:55 | 
+INFO   | jvm 1    | 2021/07/28 11:44:55 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/28 11:44:55 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           Reported cause:
+INFO   | jvm 1    | 2021/07/28 11:44:55 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/28 11:44:55 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/28 11:44:55 | 
+INFO   | jvm 1    | 2021/07/28 11:44:55 | TCP server running at tcp://192.168.0.66:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/28 11:44:55 | Web Console server running at http://192.168.0.66:8082 (only local connections)
+STATUS | wrapper  | 2021/07/29 10:05:34 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/29 10:05:34 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/29 10:05:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/29 10:05:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/29 10:05:34 | 
+INFO   | jvm 1    | 2021/07/29 10:05:34 | 
+INFO   | jvm 1    | 2021/07/29 10:05:34 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/29 10:05:34 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           Reported cause:
+INFO   | jvm 1    | 2021/07/29 10:05:34 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/07/29 10:05:34 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/29 10:05:34 | 
+INFO   | jvm 1    | 2021/07/29 10:05:34 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/07/29 10:05:34 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/08/04 13:26:25 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/04 13:26:25 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/04 13:26:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/04 13:26:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/04 13:26:26 | 
+INFO   | jvm 1    | 2021/08/04 13:26:26 | 
+INFO   | jvm 1    | 2021/08/04 13:26:26 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/04 13:26:26 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           Reported cause:
+INFO   | jvm 1    | 2021/08/04 13:26:26 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/04 13:26:26 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/04 13:26:26 | 
+INFO   | jvm 1    | 2021/08/04 13:26:26 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/04 13:26:26 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/08/05 17:33:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/05 17:33:28 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/05 17:33:28 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/05 17:33:28 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/05 17:33:28 | 
+INFO   | jvm 1    | 2021/08/05 17:33:28 | 
+INFO   | jvm 1    | 2021/08/05 17:33:28 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/05 17:33:28 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           Reported cause:
+INFO   | jvm 1    | 2021/08/05 17:33:28 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/05 17:33:28 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/05 17:33:28 | 
+INFO   | jvm 1    | 2021/08/05 17:33:29 | TCP server running at tcp://192.168.0.66:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/05 17:33:29 | Web Console server running at http://192.168.0.66:8082 (only local connections)
+STATUS | wrapper  | 2021/08/06 11:22:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/06 11:22:01 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/06 11:22:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/06 11:22:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/06 11:22:02 | 
+INFO   | jvm 1    | 2021/08/06 11:22:02 | 
+INFO   | jvm 1    | 2021/08/06 11:22:02 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/06 11:22:02 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           Reported cause:
+INFO   | jvm 1    | 2021/08/06 11:22:02 |             C:\xit\SenderApi\workspace\cokr.xit.post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/06 11:22:02 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/06 11:22:02 | 
+INFO   | jvm 1    | 2021/08/06 11:22:02 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/06 11:22:02 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/08/10 10:20:30 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/10 10:20:31 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/10 10:20:31 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/10 10:20:31 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/10 10:20:31 | 
+INFO   | jvm 1    | 2021/08/10 10:20:31 | 
+INFO   | jvm 1    | 2021/08/10 10:20:31 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/10 10:20:31 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           Reported cause:
+INFO   | jvm 1    | 2021/08/10 10:20:31 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/10 10:20:31 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/10 10:20:31 | 
+INFO   | jvm 1    | 2021/08/10 10:20:31 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/10 10:20:32 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/08/10 15:55:35 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/10 15:55:35 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/10 15:55:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/10 15:55:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/10 15:55:36 | 
+INFO   | jvm 1    | 2021/08/10 15:55:36 | 
+INFO   | jvm 1    | 2021/08/10 15:55:36 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/10 15:55:36 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           Reported cause:
+INFO   | jvm 1    | 2021/08/10 15:55:36 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/10 15:55:36 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/10 15:55:36 | 
+INFO   | jvm 1    | 2021/08/10 15:55:36 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/10 15:55:36 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/08/11 16:02:40 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/11 16:02:40 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/11 16:02:40 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/11 16:02:40 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/11 16:02:40 | 
+INFO   | jvm 1    | 2021/08/11 16:02:40 | 
+INFO   | jvm 1    | 2021/08/11 16:02:40 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/11 16:02:40 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           Reported cause:
+INFO   | jvm 1    | 2021/08/11 16:02:40 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/11 16:02:40 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/11 16:02:40 | 
+INFO   | jvm 1    | 2021/08/11 16:02:40 | TCP server running at tcp://192.168.0.66:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/11 16:02:40 | Web Console server running at http://192.168.0.66:8082 (only local connections)
+STATUS | wrapper  | 2021/08/12 09:06:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/12 09:06:15 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/12 09:06:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/12 09:06:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/12 09:06:16 | 
+INFO   | jvm 1    | 2021/08/12 09:06:16 | 
+INFO   | jvm 1    | 2021/08/12 09:06:16 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/12 09:06:16 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           Reported cause:
+INFO   | jvm 1    | 2021/08/12 09:06:16 |             C:\Users\mk1126sj\git\repository\local\post-api\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/12 09:06:16 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/12 09:06:16 | 
+INFO   | jvm 1    | 2021/08/12 09:06:17 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/12 09:06:17 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/08/17 09:18:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/08/17 09:18:54 | Launching a JVM...
+INFO   | jvm 1    | 2021/08/17 09:18:55 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/08/17 09:18:55 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/08/17 09:18:55 | 
+INFO   | jvm 1    | 2021/08/17 09:18:55 | 
+INFO   | jvm 1    | 2021/08/17 09:18:55 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           could not be loaded:
+INFO   | jvm 1    | 2021/08/17 09:18:55 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           Reported cause:
+INFO   | jvm 1    | 2021/08/17 09:18:55 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/08/17 09:18:55 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/08/17 09:18:55 | 
+INFO   | jvm 1    | 2021/08/17 09:18:56 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/08/17 09:18:56 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/09/01 11:10:59 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/09/01 11:10:59 | Launching a JVM...
+INFO   | jvm 1    | 2021/09/01 11:11:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/09/01 11:11:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/09/01 11:11:00 | 
+INFO   | jvm 1    | 2021/09/01 11:11:00 | 
+INFO   | jvm 1    | 2021/09/01 11:11:00 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           could not be loaded:
+INFO   | jvm 1    | 2021/09/01 11:11:00 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           Reported cause:
+INFO   | jvm 1    | 2021/09/01 11:11:00 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/09/01 11:11:00 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/09/01 11:11:00 | 
+INFO   | jvm 1    | 2021/09/01 11:11:00 | TCP server running at tcp://192.168.0.66:9092 (only local connections)
+INFO   | jvm 1    | 2021/09/01 11:11:00 | Web Console server running at http://192.168.0.66:8082 (only local connections)
+STATUS | wrapper  | 2021/09/03 15:34:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/09/03 15:34:02 | Launching a JVM...
+INFO   | jvm 1    | 2021/09/03 15:34:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/09/03 15:34:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/09/03 15:34:02 | 
+INFO   | jvm 1    | 2021/09/03 15:34:02 | 
+INFO   | jvm 1    | 2021/09/03 15:34:02 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           could not be loaded:
+INFO   | jvm 1    | 2021/09/03 15:34:02 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           Reported cause:
+INFO   | jvm 1    | 2021/09/03 15:34:02 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/09/03 15:34:02 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/09/03 15:34:02 | 
+INFO   | jvm 1    | 2021/09/03 15:34:02 | TCP server running at tcp://115.21.123.51:9092 (only local connections)
+INFO   | jvm 1    | 2021/09/03 15:34:02 | Web Console server running at http://115.21.123.51:8082 (only local connections)
+STATUS | wrapper  | 2021/09/08 10:47:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/09/08 10:47:55 | Launching a JVM...
+INFO   | jvm 1    | 2021/09/08 10:47:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/09/08 10:47:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/09/08 10:47:56 | 
+INFO   | jvm 1    | 2021/09/08 10:47:56 | 
+INFO   | jvm 1    | 2021/09/08 10:47:56 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           could not be loaded:
+INFO   | jvm 1    | 2021/09/08 10:47:56 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           Reported cause:
+INFO   | jvm 1    | 2021/09/08 10:47:56 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/09/08 10:47:56 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/09/08 10:47:56 | 
+INFO   | jvm 1    | 2021/09/08 10:47:56 | TCP server running at tcp://192.168.0.66:9092 (only local connections)
+INFO   | jvm 1    | 2021/09/08 10:47:56 | Web Console server running at http://192.168.0.66:8082 (only local connections)
+STATUS | wrapper  | 2021/09/15 15:26:47 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/09/15 15:26:47 | Launching a JVM...
+INFO   | jvm 1    | 2021/09/15 15:26:48 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/09/15 15:26:48 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/09/15 15:26:48 | 
+INFO   | jvm 1    | 2021/09/15 15:26:48 | 
+INFO   | jvm 1    | 2021/09/15 15:26:48 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           could not be loaded:
+INFO   | jvm 1    | 2021/09/15 15:26:48 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           Reported cause:
+INFO   | jvm 1    | 2021/09/15 15:26:48 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/09/15 15:26:48 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/09/15 15:26:48 | 
+INFO   | jvm 1    | 2021/09/15 15:26:48 | TCP server running at tcp://192.168.0.66:9092 (only local connections)
+INFO   | jvm 1    | 2021/09/15 15:26:48 | Web Console server running at http://192.168.0.66:8082 (only local connections)
+STATUS | wrapper  | 2021/10/22 14:19:58 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/10/22 14:19:58 | Launching a JVM...
+INFO   | jvm 1    | 2021/10/22 14:19:59 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/10/22 14:19:59 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/10/22 14:19:59 | 
+INFO   | jvm 1    | 2021/10/22 14:19:59 | 
+INFO   | jvm 1    | 2021/10/22 14:19:59 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           could not be loaded:
+INFO   | jvm 1    | 2021/10/22 14:19:59 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           Reported cause:
+INFO   | jvm 1    | 2021/10/22 14:19:59 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/10/22 14:19:59 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/10/22 14:19:59 | 
+INFO   | jvm 1    | 2021/10/22 14:19:59 | TCP server running at tcp://211.119.124.42:9092 (only local connections)
+INFO   | jvm 1    | 2021/10/22 14:19:59 | Web Console server running at http://211.119.124.42:8082 (only local connections)
+STATUS | wrapper  | 2021/10/25 09:08:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/10/25 09:08:04 | Launching a JVM...
+INFO   | jvm 1    | 2021/10/25 09:08:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/10/25 09:08:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/10/25 09:08:05 | 
+INFO   | jvm 1    | 2021/10/25 09:08:05 | 
+INFO   | jvm 1    | 2021/10/25 09:08:05 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           could not be loaded:
+INFO   | jvm 1    | 2021/10/25 09:08:05 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           Reported cause:
+INFO   | jvm 1    | 2021/10/25 09:08:05 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/10/25 09:08:05 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/10/25 09:08:05 | 
+INFO   | jvm 1    | 2021/10/25 09:08:06 | TCP server running at tcp://211.119.124.42:9092 (only local connections)
+INFO   | jvm 1    | 2021/10/25 09:08:06 | Web Console server running at http://211.119.124.42:8082 (only local connections)
+STATUS | wrapper  | 2021/10/27 08:53:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/10/27 08:53:33 | Launching a JVM...
+INFO   | jvm 1    | 2021/10/27 08:53:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/10/27 08:53:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/10/27 08:53:34 | 
+INFO   | jvm 1    | 2021/10/27 08:53:34 | 
+INFO   | jvm 1    | 2021/10/27 08:53:34 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           could not be loaded:
+INFO   | jvm 1    | 2021/10/27 08:53:34 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           Reported cause:
+INFO   | jvm 1    | 2021/10/27 08:53:34 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/10/27 08:53:34 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/10/27 08:53:34 | 
+INFO   | jvm 1    | 2021/10/27 08:53:35 | TCP server running at tcp://211.119.124.42:9092 (only local connections)
+INFO   | jvm 1    | 2021/10/27 08:53:35 | Web Console server running at http://211.119.124.42:8082 (only local connections)
+STATUS | wrapper  | 2021/10/28 17:55:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/10/28 17:55:34 | Launching a JVM...
+INFO   | jvm 1    | 2021/10/28 17:55:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/10/28 17:55:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/10/28 17:55:34 | 
+INFO   | jvm 1    | 2021/10/28 17:55:34 | 
+INFO   | jvm 1    | 2021/10/28 17:55:34 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           could not be loaded:
+INFO   | jvm 1    | 2021/10/28 17:55:34 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           Reported cause:
+INFO   | jvm 1    | 2021/10/28 17:55:34 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/10/28 17:55:34 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/10/28 17:55:34 | 
+INFO   | jvm 1    | 2021/10/28 17:55:35 | TCP server running at tcp://211.119.124.42:55350 (only local connections)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | The Web Console server could not be started. Possible cause: another server is already running at http://211.119.124.42:8082
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 
+INFO   | jvm 1    | 2021/10/28 17:55:35 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: bind" [90061-200]
+INFO   | jvm 1    | 2021/10/28 17:55:35 | org.h2.jdbc.JdbcSQLNonTransientConnectionException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: bind" [90061-200]
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.message.DbException.get(DbException.java:194)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:180)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:146)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.server.web.WebServer.start(WebServer.java:389)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.tools.Server.start(Server.java:511)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.tools.Server.runTool(Server.java:333)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.tools.Server.main(Server.java:122)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/java.lang.Thread.run(Thread.java:831)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | Caused by: java.net.BindException: Address already in use: bind
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/sun.nio.ch.Net.bind(Net.java:552)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/sun.nio.ch.Net.bind(Net.java:541)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:172)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:176)
+INFO   | jvm 1    | 2021/10/28 17:55:35 | 	... 11 more
+STATUS | wrapper  | 2021/10/28 17:55:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2021/11/02 14:28:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/11/02 14:28:41 | Launching a JVM...
+INFO   | jvm 1    | 2021/11/02 14:28:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/11/02 14:28:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/11/02 14:28:41 | 
+INFO   | jvm 1    | 2021/11/02 14:28:41 | 
+INFO   | jvm 1    | 2021/11/02 14:28:41 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           could not be loaded:
+INFO   | jvm 1    | 2021/11/02 14:28:41 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           Reported cause:
+INFO   | jvm 1    | 2021/11/02 14:28:41 |             C:\xit\SenderApi\workspace\module-post\DataBase\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2021/11/02 14:28:41 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/11/02 14:28:41 | 
+INFO   | jvm 1    | 2021/11/02 14:28:42 | TCP server running at tcp://211.119.124.42:9092 (only local connections)
+INFO   | jvm 1    | 2021/11/02 14:28:42 | Web Console server running at http://211.119.124.42:8082 (only local connections)

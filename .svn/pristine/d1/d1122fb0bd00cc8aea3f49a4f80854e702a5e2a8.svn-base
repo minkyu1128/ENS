@@ -1,0 +1,91 @@
+package cokr.xit.modules.kkomydoc.presentation;
+
+import java.util.Optional;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+import cokr.xit.modules.kkomydoc.domain.NotiDetailsKkoMydoc;
+import cokr.xit.modules.kkomydoc.domain.NotiDetailsKkoMydocRepository;
+
+@Controller
+public class KkoMyDocNotiController {
+
+	@Resource
+	private NotiDetailsKkoMydocRepository notiDetailsKkoMydocRepository;
+	
+	
+	@GetMapping("/kko/mydoc/noti/{notiDetailsId}/prnt")
+	public String prnt(@PathVariable Long notiDetailsId, ModelMap model) throws JsonMappingException, JsonProcessingException {
+		Optional<NotiDetailsKkoMydoc> notiDetailsKkoMydoc = notiDetailsKkoMydocRepository.findById(notiDetailsId);
+		
+		String details = notiDetailsKkoMydoc.get()==null?"{}":notiDetailsKkoMydoc.get().getDetails().replaceAll("\\r\\n", "");
+		model.put("details", details);
+		
+		return "modules/kkomydoc/notiprnt"; 
+	}
+	
+	
+
+	/* ==========================================================
+	 * -.redirect 페이지 고지서 출력 Sample 소스 => main.jsp 참조
+	 * -.item_type: TEXT, KEY_VALUE, TABLE, IMAGE(예정), IMAGE_LINK(예정), GRAPH(예정)
+		{
+		    "contents": {
+		        "documents": [
+					{
+						...
+						"property": {
+							"payload": "업무시스템 자료 식별자...",
+							...
+						}
+					},
+					{
+						...
+						"property": {
+							"payload": "업무시스템 자료 식별자2...",
+							...
+						}
+					}
+		            
+		        ],
+				"notidocuments" : [
+					{
+						"payload": "업무시스템 자료 식별자...",
+						"details": [
+							{
+								"title": "기본정보",
+								"item_type": "TEXT",
+								"elements": [
+									"test",
+									"하하하"
+								]
+							},
+							{ 
+								...
+							}
+						]
+					},
+					{
+						"payload": "업무시스템 자료 식별자2...",
+						"details": [
+							{
+								...
+							},
+							{
+								...
+							}
+						]
+					}
+				]
+		    }
+		}
+	 ========================================================== */
+}

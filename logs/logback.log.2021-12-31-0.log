@@ -1,0 +1,395 @@
+2021-12-31 12:17:15.767  INFO 18428 --- [main] .ElctrnNticSndngResultRepositoryImplTest : Starting ElctrnNticSndngResultRepositoryImplTest using Java 1.8.0_121 on DESKTOP-IBNAQ35 with PID 18428 (started by mk1126sj in C:\xit\SenderApi\workspace\module-post)
+2021-12-31 12:17:15.780  INFO 18428 --- [main] .ElctrnNticSndngResultRepositoryImplTest : The following profiles are active: dev
+2021-12-31 12:17:17.609  INFO 18428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-31 12:17:18.171  INFO 18428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 541 ms. Found 14 JPA repository interfaces.
+2021-12-31 12:17:20.712  INFO 18428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-31 12:17:20.886  INFO 18428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-31 12:17:21.259  INFO 18428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-31 12:17:23.450  INFO 18428 --- [main] com.zaxxer.hikari.HikariDataSource       : pool-xitworld - Starting...
+2021-12-31 12:17:23.586  INFO 18428 --- [main] com.zaxxer.hikari.HikariDataSource       : pool-xitworld - Start completed.
+2021-12-31 12:17:23.623  INFO 18428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: cokr.xit.dialect.MariaDBCustomDialect
+2021-12-31 12:17:25.116  INFO 18428 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: cokr.xit.modules.domain.AccessLog (class must be instantiated by Interceptor)
+2021-12-31 12:17:25.433  INFO 18428 --- [main] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38d525aa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-12-31 12:17:25.617  INFO 18428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-31 12:17:25.638  INFO 18428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-31 12:17:30.858  INFO 18428 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-12-31 12:17:32.210  INFO 18428 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [minkyu1128.synology.me:49092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-group-id-ens-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group-id-ens
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-12-31 12:17:32.609  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2021-12-31 12:17:32.610  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2021-12-31 12:17:32.611  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1640920652603
+2021-12-31 12:17:32.620  INFO 18428 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] Subscribed to topic(s): kkomydoc-send-bulk
+2021-12-31 12:17:32.640  INFO 18428 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [minkyu1128.synology.me:49092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-group-id-ens-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group-id-ens
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-12-31 12:17:32.659  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2021-12-31 12:17:32.664  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2021-12-31 12:17:32.664  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1640920652658
+2021-12-31 12:17:32.666  INFO 18428 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] Subscribed to topic(s): kkomydoc-status-bulk
+2021-12-31 12:17:32.672  INFO 18428 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [minkyu1128.synology.me:49092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-group-id-ens-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group-id-ens
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-12-31 12:17:32.685  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2021-12-31 12:17:32.685  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2021-12-31 12:17:32.686  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1640920652685
+2021-12-31 12:17:32.686  INFO 18428 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] Subscribed to topic(s): testTopic
+2021-12-31 12:17:32.691  INFO 18428 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [minkyu1128.synology.me:49092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-group-id-ens-4
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group-id-ens
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 1000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-12-31 12:17:32.707  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2021-12-31 12:17:32.708  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2021-12-31 12:17:32.708  INFO 18428 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1640920652707
+2021-12-31 12:17:32.709  INFO 18428 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] Subscribed to topic(s): testTopic2
+2021-12-31 12:17:32.742  INFO 18428 --- [main] .ElctrnNticSndngResultRepositoryImplTest : Started ElctrnNticSndngResultRepositoryImplTest in 18.032 seconds (JVM running for 21.562)
+2021-12-31 12:17:33.991  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] Cluster ID: tVohhQ5XQeiBIKHzUpM-dw
+2021-12-31 12:17:33.991  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] Cluster ID: tVohhQ5XQeiBIKHzUpM-dw
+2021-12-31 12:17:33.991  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] Cluster ID: tVohhQ5XQeiBIKHzUpM-dw
+2021-12-31 12:17:33.991  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] Cluster ID: tVohhQ5XQeiBIKHzUpM-dw
+2021-12-31 12:17:33.995  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] Discovered group coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null)
+2021-12-31 12:17:33.995  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] Discovered group coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null)
+2021-12-31 12:17:33.995  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] Discovered group coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null)
+2021-12-31 12:17:33.995  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] Discovered group coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null)
+2021-12-31 12:17:34.001  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.002  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.001  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.002  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.058  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.058  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.058  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.058  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] (Re-)joining group
+2021-12-31 12:17:34.234  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] Member consumer-group-id-ens-1-6f6e2322-7422-4613-a790-212d233b96d4 sending LeaveGroup request to coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null) due to the consumer unsubscribed from all topics
+2021-12-31 12:17:34.234  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] Member consumer-group-id-ens-2-992c7815-fc90-4d51-9d1b-1cbd3655bee1 sending LeaveGroup request to coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null) due to the consumer unsubscribed from all topics
+2021-12-31 12:17:34.234  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] Member consumer-group-id-ens-3-2f59be1f-c768-4bcc-9bfb-3e7918e3623f sending LeaveGroup request to coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null) due to the consumer unsubscribed from all topics
+2021-12-31 12:17:34.235  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-1, groupId=group-id-ens] Unsubscribed all topics or patterns and assigned partitions
+2021-12-31 12:17:34.235  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-3, groupId=group-id-ens] Unsubscribed all topics or patterns and assigned partitions
+2021-12-31 12:17:34.236  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] Member consumer-group-id-ens-4-98360920-9fdc-4ac7-abe8-a5d67325a47e sending LeaveGroup request to coordinator minkyu1128.synology.me:49092 (id: 2147482646 rack: null) due to the consumer unsubscribed from all topics
+2021-12-31 12:17:34.235  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-2, groupId=group-id-ens] Unsubscribed all topics or patterns and assigned partitions
+2021-12-31 12:17:34.238  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-ens-4, groupId=group-id-ens] Unsubscribed all topics or patterns and assigned partitions
+2021-12-31 12:17:36.621  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2021-12-31 12:17:36.621  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-12-31 12:17:36.621  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2021-12-31 12:17:36.624  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2021-12-31 12:17:36.624  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-12-31 12:17:36.625  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2021-12-31 12:17:36.626  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2021-12-31 12:17:36.626  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-12-31 12:17:36.626  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2021-12-31 12:17:36.628  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2021-12-31 12:17:36.628  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-12-31 12:17:36.628  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2021-12-31 12:17:36.633  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group-id-ens-1 unregistered
+2021-12-31 12:17:36.634  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] essageListenerContainer$ListenerConsumer : group-id-ens: Consumer stopped
+2021-12-31 12:17:36.635  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group-id-ens-4 unregistered
+2021-12-31 12:17:36.635  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] essageListenerContainer$ListenerConsumer : group-id-ens: Consumer stopped
+2021-12-31 12:17:36.635  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group-id-ens-2 unregistered
+2021-12-31 12:17:36.635  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] essageListenerContainer$ListenerConsumer : group-id-ens: Consumer stopped
+2021-12-31 12:17:36.635  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group-id-ens-3 unregistered
+2021-12-31 12:17:36.635  INFO 18428 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] essageListenerContainer$ListenerConsumer : group-id-ens: Consumer stopped
+2021-12-31 12:17:36.646  INFO 18428 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-31 12:17:36.649  INFO 18428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : pool-xitworld - Shutdown initiated...
+2021-12-31 12:17:36.665  INFO 18428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : pool-xitworld - Shutdown completed.

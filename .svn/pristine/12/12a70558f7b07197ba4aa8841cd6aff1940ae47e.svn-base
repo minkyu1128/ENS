@@ -1,0 +1,198 @@
+#=================
+# Server
+#=================
+server:
+  port: 18090 #port  
+  error:
+    include-exception: true   #오류 응답에 Exception 포함 여부
+    include-stacktrace: never #오류 응답에 stacktrace 포함 여부
+    path: '/error'  #http://~/error 호출
+    whitelabel:
+      enabled: true #서버 오류 발생시 브라우저에 보여줄 기본 페이지 생성 여부
+
+##=================
+## Spring 설정(Local)
+##=================
+#spring:
+#  profiles:
+#    active: local
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp/
+#      suffix: .jsp
+#  devtools:
+#    livereload:
+#      enabled: true #JSP 수정 시 서버 재시작 없이 바로 적용
+#  datasource:
+#  #############
+#  # DB 설정 - H2 
+#  #############
+#    # 기본설정 //log4j2 적용 전
+#    driver-class-name: org.h2.Driver
+#    url: "jdbc:h2:tcp://localhost:19092/~/ens"
+##    # log4j2 적용
+##    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+##    url: "jdbc:log4jdbc:h2:tcp://localhost/~/dev_post"
+#    username: sa
+#    password:
+#    hikari:
+#      auto-commit: false
+#      connection-test-query: SELECT 1
+#      minimum-idle: 10
+#      maximum-pool-size: 50
+#      transaction-isolation: TRANSACTION_READ_UNCOMMITTED 
+#      pool-name: pool-xitworld
+#      data-source-properties:
+#        rewriteBatchedStatments: true #여러개의 insert 쿼리를 하나로 병합
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#      naming:
+##        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+#        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy  #네이밍 camel case => underscore
+#    open-in-view: true
+#    show-sql: true  #하이버네이트가 실행하는 SQL 콘솔 출력 여부
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        order_inserts: true
+#        order_updates: true
+#        jdbc:
+#          batch_size: 100 #배치 사이즈
+#  pid:
+#    file: mdpost.pid          
+#  kafka:
+#    producer:
+#      bootstrap-servers: localhost:9092 
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#    consumer:
+#      bootstrap-servers: localhost:9092
+#      group-id: group-id-oing
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      max-poll-records: 1000
+#logging:
+#  file:
+#    name: ./logs/logback.log
+#  logback:
+#    rollingpolicy: 
+#      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}-%i.log
+#      max-history: 30 #30일까지 보관
+#      max-file-size:
+#        100MB #용량제한(100MB)
+
+#logging:
+#  pattern:
+#    console: "[%d{HH:mm:ss.SSS}][%-5level][%logger.%method:line%line] - %msg%n"
+#  level:
+#    org:
+#      springframework: DEBUG    
+    
+    
+#=================
+# Spring 설정(Dev)
+#=================
+spring:
+  profiles:
+    active: dev
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  devtools:
+    livereload:
+      enabled: true #JSP 수정 시 서버 재시작 없이 바로 적용
+  datasource:
+  #############
+  # DB 설정 - maria 
+  #############
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: "jdbc:mariadb://211.119.124.122:3306/xplatform"
+    username: root
+#    url: "jdbc:mariadb://minkyu1128.synology.me:43306/ens"
+#    username: ens_user
+#    url: "jdbc:mariadb://152.99.141.30:60001/xplatform"
+#    username: root
+    password: xit5811807
+    hikari:
+      auto-commit: false
+      connection-test-query: SELECT 1
+      minimum-idle: 10
+      maximum-pool-size: 50
+      transaction-isolation: TRANSACTION_READ_UNCOMMITTED 
+      pool-name: pool-xitworld
+      data-source-properties:
+        rewriteBatchedStatments: true #여러개의 insert 쿼리를 하나로 병합
+  jpa:
+#    database-platform: org.hibernate.dialect.MariaDB103Dialect
+    database-platform: cokr.xit.dialect.MariaDBCustomDialect
+    hibernate:
+      ddl-auto: update
+      naming:
+#        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy  #네이밍 camel case => underscore
+    open-in-view: true
+    show-sql: true  #하이버네이트가 실행하는 SQL 콘솔 출력 여부
+    properties:
+      hibernate: 
+        format_sql: true
+        order_inserts: true
+        order_updates: true
+        jdbc:
+          batch_size: 100 #배치 사이즈
+  pid:
+    file: mdpost.pid          
+  kafka:
+    producer:
+#      bootstrap-servers: localhost:9092 
+      bootstrap-servers: minkyu1128.synology.me:49092 
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+#      bootstrap-servers: localhost:9092
+      bootstrap-servers: minkyu1128.synology.me:49092
+      group-id: group-id-ens
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      max-poll-records: 1000
+logging:
+  file:
+    name: ./logs/logback.log
+  logback:
+    rollingpolicy: 
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}-%i.log
+      max-history: 30 #30일까지 보관
+      max-file-size:
+        100MB #용량제한(100MB)
+  level:
+    root: info
+#    '[org.springframework]': debug
+#    '[org.hibernate]': info
+        
+##logging:
+##  pattern:
+##    file: "[%d{HH:mm:ss.SSS}][%-5level][%logger.%method:line%line] - %msg%n"
+##    rolling-file-name: "/logs/abc.%d{yyyy-MM-dd}.%i"
+##  file:
+##      name: /logs/abc.log
+##      max-history: 30
+##  level:
+##    org:
+##    springframework: INFO
+
+        
+        
+        
+
+kakao:
+  #host: https://gw-cert.kakao.com
+  host: https://phts-admin.koti.re.kr
+  access_token: 5BF35A446DBE2316BC019D0A98E7E7BB60156FEF1C070A9E1851A04048F1DDA0
+#  send_thread_count: 5
+#  status_thread_count: 10
+#  call_fail_repeat_count: 1
+#  verify_auth_name: Y        

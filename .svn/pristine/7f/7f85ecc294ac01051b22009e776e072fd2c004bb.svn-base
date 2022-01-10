@@ -1,0 +1,115 @@
+package cokr.xit.modules.usermng.service;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import cokr.xit.modules.kkomydoc.model.BulkSendReqDTO;
+import cokr.xit.modules.kkomydoc.model.child.Document;
+import cokr.xit.modules.kkomydoc.model.child.NotiDocument;
+import cokr.xit.modules.kkomydoc.model.child.Property;
+import cokr.xit.modules.kkomydoc.model.child.Receiver;
+import cokr.xit.modules.nicedici.model.DiCiRespDTO;
+import cokr.xit.modules.nicedici.service.NiceDiCiService;
+import cokr.xit.modules.usermng.domain.ElctrnNticSndng;
+import cokr.xit.modules.usermng.domain.ElctrnNticSndngDetail;
+import cokr.xit.modules.usermng.domain.ElctrnNticSndngDetailRepository;
+import cokr.xit.modules.usermng.domain.ElctrnNticSndngRepository;
+import cokr.xit.modules.usermng.domain.ElctrnNticSndngResultRepository;
+import cokr.xit.modules.usermng.domain.NhtTmplatManage;
+import cokr.xit.modules.usermng.domain.NhtTmplatManageRepository;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@Service
+@RequiredArgsConstructor
+public class UserElctrnNticService {
+	private final ElctrnNticSndngRepository elctrnNticSndngRepository;
+	private final ElctrnNticSndngDetailRepository elctrnNticSndngDetailRepository;
+	private final ElctrnNticSndngResultRepository elctrnNticSndngResultRepository;
+	private final NhtTmplatManageRepository nhtTmplatManageRepository;
+	private final NiceDiCiService nicedDiCiService;
+	
+	/**
+	 * 메시지포맷 작성
+	 */
+	private String makeMessage(ElctrnNticSndng sndng, List<ElctrnNticSndngDetail> sndngDetails) {
+		List<Document> documents = new ArrayList<>();
+		List<NotiDocument> notidocuments = new ArrayList<>();
+		for(ElctrnNticSndngDetail row : sndngDetails) {
+			//	CI 조회
+			String siteCode = "GA72";        //하드코딩 적용하였으나, 이용시스템별 적용되어야 함.
+			String sitePw = "xit5811807!!";  //하드코딩 적용하였으나, 이용시스템별 적용되어야 함.
+			DiCiRespDTO diciRespDTO = nicedDiCiService.ci(siteCode, sitePw, row.getIhidnum());
+			String ci = null;
+			if(diciRespDTO.getError_code()==null)
+				ci = diciRespDTO.getDici();
+			
+			//	메시지작성
+			Document document = new Document();
+			document.setTitle(sndng.getNhtTmplatManage().getNhtSj()); //제목
+			document.setCommon_categories(new String[] {"NOTICE"});   //카테고리
+			document.setHash(ci);                                     //해시값
+			Receiver receiver = new Receiver();                       
+			if(ci==null) {                                            
+				receiver.setPhone_number(ci);                         //수신자-휴대폰번호
+				receiver.setName(ci);                                 //수신자-성명
+				receiver.setBirthday(ci);                             //수신자-생년월일
+				receiver.setIs_required_verify_name(true);            //수신자-
+			}else {                                                   //
+				receiver.setCi(ci);                                   //수신자-ci(개인식별번호)
+			}                                                         
+			document.setReceiver(receiver);                           //수신자
+			Property property = new Property();                       
+			property.setLink(ci);                                     //프로퍼티-redirect 링크 정보
+			property.setPayload(ci);                                  //프로퍼티-페이로드
+			property.setMessage(ci);                                  //프로퍼티-메시지
+			property.setCs_number(ci);                                //프로퍼티-고객센터 전화번호
+			property.setCs_name(ci);                                  //프로퍼티-고객센터 명칭
+			document.setProperty(property);                           //프로퍼티
+		}
+		
+		
+		BulkSendReqDTO bulkSendReqDTO = new BulkSendReqDTO();
+		bulkSendReqDTO.setDocuments(documents);
+		bulkSendReqDTO.setNotidocuments(notidocuments);
+		return null;
+	}
+	
+	
+	
+	
+	
+	/**
+	 * 발송
+	 */
+	public void send() {
+		//발송데이터(마스터) 목록 조회 => 처리중인 자료에 대한 처리는...??
+		List<ElctrnNticSndng> list = elctrnNticSndngRepository.findAllBySndngProcessSttus("01");	//요청(01) 자료 조회
+		for(ElctrnNticSndng row : list) {
+			//템플릿 조회
+			NhtTmplatManage tmplat = row.getNhtTmplatManage();
+			//발송상세 목록 조회
+		}
+			
+		//인증톡, 알림톡 분기
+		
+	}
+		 
+	
+	
+	
+	/**
+	 * 예약발송
+	 */
+
+	
+	
+	/**
+	 * 발송결과 업데이트
+	 */
+	
+}

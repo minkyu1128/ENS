@@ -1,0 +1,41 @@
+package cokr.xit.modules.kkomydoc.service.cmpnt;
+
+import java.io.IOException;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import cokr.xit.modules.kkomydoc.service.KkoMyDocService;
+
+@Component
+public class KkoMyDocConsumer {
+
+	@Autowired
+	private KkoMyDocService kkoMyDocService;
+
+	@SuppressWarnings("unchecked")
+	@KafkaListener(topics = "kkomydoc-send-bulk", groupId = "group-id-ens")
+	public void subBulkSend(String message) throws IOException {
+		System.out.println("[kkomydoc-send-bulk] sub message : " + message);
+
+		Map<String, Object> m = null;
+		try {
+//			m = (Map<String, Object>) CmmnUtil.jsonStringtoObj(Map.class, message);
+			ObjectMapper mapper  = new ObjectMapper();
+			m = mapper.readValue(message, Map.class);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+
+		try {
+			kkoMyDocService.bulkSend("", String.valueOf(m.get("accessToken")), String.valueOf(m.get("contractUuid")), String.valueOf(m.get("jsonStr")));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

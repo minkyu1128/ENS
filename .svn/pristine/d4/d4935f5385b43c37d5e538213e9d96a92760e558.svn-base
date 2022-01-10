@@ -1,0 +1,37 @@
+package cokr.xit.modules.usermng.service;
+
+import java.util.Date;
+import java.util.UUID;
+
+import cokr.xit.utils.CmmnUtil;
+import cokr.xit.utils.JwtUtil;
+
+public class AccessTokenService {
+	
+	
+	public String createToken(String authInfo, String siteUrl, String expiresDt, String activationDt, String[] roles) {
+		String accessToken = null;
+		
+		String uUuid = UUID.randomUUID().toString();
+		String jwt = JwtUtil.createBuilder()
+				.secretKey(JwtUtil.DEFAULT_SECRET_KEY)
+				.iss("ENS")
+				.sub("전자고지시스템")
+				.aud(siteUrl)
+				.exp(new Date(CmmnUtil.dateToAbsTime(expiresDt)))
+				.nbf(activationDt==null?null:new Date(CmmnUtil.dateToAbsTime(activationDt)))
+				.iat(new Date())
+				.uUuid(UUID.randomUUID().toString())
+				.roles(roles)
+				.build()
+				.getToken();
+		
+		return accessToken;
+	}
+	
+	public void jwtRenewal(String accessToken) {
+		
+	}
+	
+	
+}

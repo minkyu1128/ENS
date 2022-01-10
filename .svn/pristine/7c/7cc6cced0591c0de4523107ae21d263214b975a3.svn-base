@@ -1,0 +1,27 @@
+package cokr.xit.modules.usermng.service;
+
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UserElctrnNticServiceTest {
+
+	@Autowired
+	private UserElctrnNticService service;
+
+	@Test
+	void testSend() {
+		String beginSndngDt = "20211201000000";
+		String endSndngDt = "20211231000000";
+
+		service.send(beginSndngDt, endSndngDt);
+	}
+
+	@Test @Disabled
+	void testResult() {
+		service.result();
+	}
+
+}

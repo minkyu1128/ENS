@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* *********************************************
+* tui-grid Custom 스타일 설정
+* @최초작성일 2020.06.10.
+* @최초작성자 박민규
+* @수정내역
+* 
+********************************************* */
+
+/* selected row */
+table.tui-grid-table tr.tui-grid-cell-current-row > td{
+	background-color: rgba(199, 235, 235, 1);
+}
+
+
+/* font size */
+table.tui-grid-table th{
+	font-size: 11px;
+	font-weight: bold;
+	border-color: #fff;
+}
+table.tui-grid-table td div{
+	font-size: 11px;
+}
+
+
+/* header color */
+table.tui-grid-table th.tui-grid-cell-header, table.tui-grid-table th.tui-grid-cell-row-header{
+	background-color: #eee;
+}
+
+
+/* grid cell */
+/* table.tui-grid-table td.tui-grid-cell div.tui-grid-cell-content{ */
+/* 	overflow: auto; */
+/* } */
+table.tui-grid-table td.tui-grid-cell-editable > div.tui-grid-cell-content{
+/* 	border: 1px outset; */
+	cursor: pointer;
+	
+} 
+
+/* 2020.09.16 정지현*/
+/* summary영역 수정 */
+.tui-grid-summary-area .tui-grid-cell {
+    text-align: right;
+    font-size: 11px;
+    padding-right: 5px;
+    background-color: rgba(238, 238, 238, 1);
+    border: 1px solid white;
+}
+
+.tui-grid-table tr {
+	border-bottom: 1px solid #eee;
+}

@@ -1,0 +1,7 @@
+package cokr.xit.modules.usermng.domain;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ElctrnNticSndngRepository extends JpaRepository<ElctrnNticSndng, String>, ElctrnNticSndngRepositoryCustom {
+
+}

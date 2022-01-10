@@ -1,0 +1,70 @@
+package cokr.xit.modules.usermng.domain;
+
+import static cokr.xit.modules.kkomydoc.domain.QSendDetailKkoMydoc.sendDetailKkoMydoc;
+import static cokr.xit.modules.kkomydoc.domain.QSendResultKkoMydoc.sendResultKkoMydoc;
+import static cokr.xit.modules.usermng.domain.QElctrnNticSndngDetail.elctrnNticSndngDetail;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.querydsl.core.Tuple;
+import com.querydsl.jpa.impl.JPAQueryFactory;
+
+import cokr.xit.modules.usermng.domain.embeded.FieldCreate;
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+public class ElctrnNticSndngResultRepositoryImpl implements ElctrnNticSndngResultRepositoryCustom{
+
+	private final JPAQueryFactory query;
+
+	@Override
+	public List<ElctrnNticSndngResult> findAllByElctrnNticSndngId(String elctrnNticSndngId) {
+
+		//인증톡 발송상세 목록 조회
+		List<Tuple> list = query.select(sendDetailKkoMydoc.docBoxSentDt
+										,sendDetailKkoMydoc.payload
+										,sendDetailKkoMydoc.externalDocumentUuid
+										,sendDetailKkoMydoc.frstTokenUsedDt
+										,sendDetailKkoMydoc.frstDocBoxReadDt
+										,sendResultKkoMydoc.error.errorCode
+										,sendResultKkoMydoc.error.errorMessage
+				)
+				.from(sendDetailKkoMydoc)
+				.leftJoin(sendResultKkoMydoc)
+					.on(sendResultKkoMydoc.externalDocumentUuid.eq(sendDetailKkoMydoc.externalDocumentUuid)
+							.and(sendResultKkoMydoc.sendMast.sendMastId.eq(sendDetailKkoMydoc.sendMast.sendMastId))
+							)
+				.innerJoin(elctrnNticSndngDetail)
+					.on(elctrnNticSndngDetail.mainCode.eq(sendDetailKkoMydoc.payload)
+							.and(elctrnNticSndngDetail.external_document_uuid.eq(sendDetailKkoMydoc.externalDocumentUuid))
+							)
+				.where(elctrnNticSndngDetail.elctrnNticSndng.elctrnNticSndngId.eq(elctrnNticSndngId))
+				.fetch();
+		
+		List<ElctrnNticSndngResult> results = new ArrayList<>();
+		for(Tuple row : list) {
+			FieldCreate create = new FieldCreate();
+//			create.setREGISTER("");
+//			create.setREGIST_DT();
+			ElctrnNticSndngResult sndngResult = ElctrnNticSndngResult.builder()
+				.elctrnNticSndngDetailId(query.select(elctrnNticSndngDetail.elctrnNticSndngDetailId)
+						.from(elctrnNticSndngDetail)
+						.where(elctrnNticSndngDetail.mainCode.eq(row.get(sendDetailKkoMydoc.payload))
+								.and(elctrnNticSndngDetail.external_document_uuid.eq(row.get(sendDetailKkoMydoc.externalDocumentUuid)))
+						).fetchOne())
+				.sndngResultCode("????")
+				.readngDt(row.get(sendDetailKkoMydoc.docBoxSentDt))
+				.inqireDt(row.get(sendDetailKkoMydoc.frstTokenUsedDt))
+				.readngDt(row.get(sendDetailKkoMydoc.frstDocBoxReadDt))
+				.errorCn(row.get(sendResultKkoMydoc.error.errorMessage))
+				.create(create)
+				.build();
+			results.add(sndngResult);
+		}
+		
+		
+		return results;
+	}
+
+}
